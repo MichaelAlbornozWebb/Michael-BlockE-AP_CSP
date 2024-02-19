@@ -96,7 +96,6 @@ def hangman(cword):
     repeatcheckerint = -1
     winnerchecker = 0
     f = len(cword)
-    print(cword)
 
     for p in range (len(cword) - 1): #makes an array with the length of the chosen word but replaces the letters with _ to display to the user
         hangmanword.append("_")

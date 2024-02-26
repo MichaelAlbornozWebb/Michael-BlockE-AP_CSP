@@ -1,0 +1,26 @@
+Michael Albornoz
+Songs
+
+In 1.sql, write a SQL query to list the names of all songs in the database.
+Makes a list of all the songs in the database labelled by their names
+
+In 2.sql, write a SQL query to list the names of all songs in increasing order of tempo.
+Makes a list of all songs with their names and sorted by the tempo, ascending
+
+In 3.sql, write a SQL query to list the names of the top 5 longest songs, in descending order of length.
+Makes a list of the songs with the longest duration, only outputting top 5, descending
+
+In 4.sql, write a SQL query that lists the names of any songs that have danceability, energy, and valence greater than 0.75.
+Makes a list of the songs by names by a condition, if their danceability, energy, and valence values are greater than 0.75
+
+In 5.sql, write a SQL query that returns the average energy of all the songs.
+Makes a single value list of the average of the energy of the songs
+
+In 6.sql, write a SQL query that lists the names of songs that are by Post Malone.
+Makes a list of the songs by name by which the artist id matches Post Malone
+
+In 7.sql, write a SQL query that returns the average energy of songs that are by Drake.
+Makes a single value list of the average energy value of the songs that the artist ID matches Drake
+
+In 8.sql, write a SQL query that lists the names of the songs that feature other artists.
+Makes a list of the songs by name by which the string "feat/FEAT" are in the names of the songs (using the LIKE function)

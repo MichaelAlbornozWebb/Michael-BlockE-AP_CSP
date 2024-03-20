@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Which president served two terms for 8 years as president, but not consecutively?</h3>
+                <button class="buttonmc">George Washington</button>
+                <button class="buttonmc">Rutherford B. Hayes</button>
+                <button class="buttonmccorrect">Grover Cleveland</button>
+                <button class="buttonmc">George W. Bush</button>
+
+                <h4 id="multichoice">   </h4>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Who is the founder of The Webb School of California?</h3>
+                <input type = 'writenmc'></input>
+                <button id = "check">Check Answer</button>
+
+                <h4 id = "writtenChoice"></h4>
+            </div>
+        </div>
+            <script src="trivia.js" type="text/JavaScript"></script> 
+    </body>
+</html>

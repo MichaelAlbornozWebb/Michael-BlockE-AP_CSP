@@ -1,0 +1,188 @@
+  body {
+    margin: auto;
+    background-image: url("images/golfballver.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    @font-face {
+      font-family: myFirstFont;
+      src: url(../SansationLight.woff);
+    }
+    * {
+      font-family: myFirstFont;
+    }
+  .menu {
+    background-color: gray;
+  }
+  header {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+    h1 {
+        color: green;
+        border-bottom-style: green 4px solid;;
+        text-align: center; }
+
+    h2 {
+        color: green;
+        border-top-style: green 4px solid;;
+        border-bottom-style: green 4px solid;;
+        text-align: center; }
+    h3 {
+      float: center;
+      display: inline-block;
+      float: center;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .left {
+      float: left;
+      width: 30%;
+      display: inline-block;
+      padding: 1%;
+      background-color: #f9f9f7;
+    }
+    .right {
+      float: right;
+      width: 30%;
+      padding: 1%;
+      display: inline-block;
+      background-color: #f9f9f7;
+    }
+    .center {
+      float: center;
+      display: inline-block;
+      width: 30%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+    .bottom {
+      position: relative;
+      float: center;
+      width: 30%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+      color: green;
+      text-align: center;
+    }
+    .golfimg {
+      width: 80%;
+    }
+
+    .driver {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+    .woods {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+    .irons {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+    .wedges {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+    .putters {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+
+    .redhill {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+    .marshall {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+    .dimas {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+    .jurapa {
+      float: center;
+      display: inline-block;
+      width: 25%;
+      padding: 1%;
+      margin: 2%;
+      background-color: #f9f9f7;
+    }
+
+    button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: #04AA6D;
+      transition-duration: 0.4s;
+    }
+
+    button:hover {
+      background-color: #03784d;
+      color: white;
+    }
+
+    form {
+      border: none;
+      color: white;
+      position: absolute;
+      width: 100%;
+      background-color: #027148;
+    }
+    input {
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: text;
+      background-color: #04AA6D;
+    }
+    #submit {
+      cursor: pointer;
+    }
